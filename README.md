@@ -7,5 +7,6 @@ pygame : pip install pygame
 
 1. Euler Integrator 
 2. Projectile Motion using Euler integrator
-3. Verlet Integrator
-4. Simple Cloth Simulation using Verlet integrator
+3. Mass and Spring system 
+4. Verlet Integrator
+5. Simple Cloth Simulation using Verlet integrator
