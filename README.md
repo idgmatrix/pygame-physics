@@ -11,4 +11,4 @@ pygame : pip install pygame
 4. Verlet Integrator
 5. Simple Cloth Simulation using Verlet integrator
 
-![verlet simple cloth](/pygame-physics/verlet_simple_cloth.png)
+![verlet simple cloth](/verlet_simple_cloth.png)
