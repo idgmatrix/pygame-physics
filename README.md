@@ -10,3 +10,5 @@ pygame : pip install pygame
 3. Mass and Spring system 
 4. Verlet Integrator
 5. Simple Cloth Simulation using Verlet integrator
+
+![Alt text](verlet simple cloth.png)
