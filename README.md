@@ -1,8 +1,8 @@
 # pygame-physics
 Simple Physics Simulation with Pygame
 
-Python : 3.5+
-pygame : pip install pygame
+* Python : 3.5+
+* pygame : pip install pygame
 
 
 1. Euler Integrator 
