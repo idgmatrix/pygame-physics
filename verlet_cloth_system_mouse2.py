@@ -155,8 +155,8 @@ for j in range(NUM_Y - 1):
         c = Constraint(index0, index1)
         constraints.append(c)
 
-
-while True:
+Running = True
+while Running:
     screen.fill(BLACK)
 
     # particles update
@@ -178,14 +178,16 @@ while True:
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
+            Running = False
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse = True
         if event.type == pygame.MOUSEBUTTONUP:
             mouse = False
-        if event.type == pygame.MOUSEMOTION:
+        if event.type == pygame.MOUSEMOTION and mouse == True:
             find_particle(pygame.mouse.get_pos())
             
     pygame.display.update()
     fpsClock.tick(FPS)
+
+pygame.quit()
+            
